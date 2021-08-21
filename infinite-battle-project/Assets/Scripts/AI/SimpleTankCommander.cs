@@ -26,19 +26,22 @@ public class SimpleTankCommander : MonoBehaviour {
 
     private void Think () {
 
-        actionId = Random.Range(0, 6);
+        actionId = Random.Range(0, 10);
     }
 
     private void Act () {
 
         switch (actionId) {
 
+            //go forward or back
             case 0: transform.Translate(Vector3.up * moveSpeed * Time.deltaTime); break;
             case 1: transform.Translate(Vector3.down * moveSpeed * Time.deltaTime); break;
 
+            //pivot left or right
             case 2: transform.Rotate(Vector3.forward * turnSpeed * Time.deltaTime); break;
             case 3: transform.Rotate(Vector3.back * turnSpeed * Time.deltaTime); break;
 
+            //move turret left or right
             case 4: turret.Rotate(Vector3.forward * turretSpeed * Time.deltaTime); break;
             case 5: turret.Rotate(Vector3.back * turretSpeed * Time.deltaTime); break;
         }

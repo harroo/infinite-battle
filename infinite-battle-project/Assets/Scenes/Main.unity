@@ -508,7 +508,7 @@ GameObject:
   - component: {fileID: 653490482}
   - component: {fileID: 653490481}
   m_Layer: 0
-  m_Name: RedTankMaster (5)
+  m_Name: BlueTankMaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -526,7 +526,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7694d9115e83c84ae2b0539cadf6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5427080823454511080, guid: 3a9bb1e1766516815971b08bd5e1e6c4, type: 3}
+  prefab: {fileID: 5550392256478988122, guid: 8475021276db9cb80bdc0f5cb4c13b49, type: 3}
 --- !u!4 &653490482
 Transform:
   m_ObjectHideFlags: 0
@@ -751,7 +751,7 @@ GameObject:
   - component: {fileID: 1464848076}
   - component: {fileID: 1464848075}
   m_Layer: 0
-  m_Name: RedTankMaster (7)
+  m_Name: BlueTankMaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -769,7 +769,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7694d9115e83c84ae2b0539cadf6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5427080823454511080, guid: 3a9bb1e1766516815971b08bd5e1e6c4, type: 3}
+  prefab: {fileID: 5550392256478988122, guid: 8475021276db9cb80bdc0f5cb4c13b49, type: 3}
 --- !u!4 &1464848076
 Transform:
   m_ObjectHideFlags: 0
@@ -802,7 +802,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!114 &1494379472
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -896,7 +896,7 @@ GameObject:
   - component: {fileID: 1680426606}
   - component: {fileID: 1680426605}
   m_Layer: 0
-  m_Name: RedTankMaster (4)
+  m_Name: BlueTankMaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -914,7 +914,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7694d9115e83c84ae2b0539cadf6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5427080823454511080, guid: 3a9bb1e1766516815971b08bd5e1e6c4, type: 3}
+  prefab: {fileID: 5550392256478988122, guid: 8475021276db9cb80bdc0f5cb4c13b49, type: 3}
 --- !u!4 &1680426606
 Transform:
   m_ObjectHideFlags: 0
@@ -1249,7 +1249,7 @@ GameObject:
   - component: {fileID: 2095990145}
   - component: {fileID: 2095990144}
   m_Layer: 0
-  m_Name: RedTankMaster (6)
+  m_Name: BlueTankMaster
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -1267,7 +1267,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9e7694d9115e83c84ae2b0539cadf6e9, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  prefab: {fileID: 5427080823454511080, guid: 3a9bb1e1766516815971b08bd5e1e6c4, type: 3}
+  prefab: {fileID: 5550392256478988122, guid: 8475021276db9cb80bdc0f5cb4c13b49, type: 3}
 --- !u!4 &2095990145
 Transform:
   m_ObjectHideFlags: 0

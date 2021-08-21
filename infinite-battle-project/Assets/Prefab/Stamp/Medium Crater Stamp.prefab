@@ -10,9 +10,9 @@ GameObject:
   m_Component:
   - component: {fileID: 7321385149735301666}
   - component: {fileID: 7321385149735301665}
-  - component: {fileID: 7321385149735301664}
   - component: {fileID: 7321385149735301679}
   - component: {fileID: 7321385149735301678}
+  - component: {fileID: -6793659919561027553}
   m_Layer: 0
   m_Name: Medium Crater Stamp
   m_TagString: Untagged
@@ -85,19 +85,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!114 &7321385149735301664
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 7321385149735301677}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 4519fca9902cdde7db70554ea93b357d, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  interval: 0
 --- !u!114 &7321385149735301679
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -122,4 +109,16 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f1cae46537a48a9838b7e9ed03465385, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  aliveTime: 2
+  aliveTime: 0.5
+--- !u!114 &-6793659919561027553
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7321385149735301677}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ad096f4f08b9d2eac8b88d3c61dcf80f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 

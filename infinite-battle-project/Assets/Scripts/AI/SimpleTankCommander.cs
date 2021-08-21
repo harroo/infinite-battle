@@ -3,11 +3,11 @@ using UnityEngine;
 
 public class SimpleTankCommander : MonoBehaviour {
 
-    public float moveSpeed, turnSpeed, turretSpeed;
+    public float moveSpeed, turnSpeed, turretSpeed, fireDelay;
     public Transform turret, bulletSpawn;
     public GameObject bulletPrefab;
 
-    private float timer;
+    private float timer, fireTimer;
     private int actionId;
 
     private void Update () {
@@ -20,6 +20,8 @@ public class SimpleTankCommander : MonoBehaviour {
 
             Act();
         }
+
+        fireTimer -= Time.deltaTime;
     }
 
     private void Think () {
@@ -41,7 +43,7 @@ public class SimpleTankCommander : MonoBehaviour {
             case 5: turret.Rotate(Vector3.back * turretSpeed * Time.deltaTime); break;
         }
 
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.forward);
+        RaycastHit2D hit = Physics2D.Raycast(bulletSpawn.position, turret.up);
 
         if (hit.collider != null) {
 
@@ -53,6 +55,8 @@ public class SimpleTankCommander : MonoBehaviour {
     }
 
     private void Fire () {
+
+        if (fireTimer < 0) fireTimer = fireDelay; else return;
 
         Instantiate(bulletPrefab, bulletSpawn.position, bulletSpawn.rotation);
     }

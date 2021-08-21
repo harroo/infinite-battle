@@ -35,4 +35,6 @@ public class PrintController : MonoBehaviour {
 
         printNext = true;
     }
+
+    public bool isPrinting => printNext || printing;
 }
